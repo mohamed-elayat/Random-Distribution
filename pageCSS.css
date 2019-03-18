@@ -1,0 +1,63 @@
+
+/*Mohamed Elayat*/
+
+html	{
+	background-color: #FFEFD5;
+}
+
+label	{
+	float: left;
+	width: 100px;
+	text-align: left;
+	margin-top: 6px;
+}
+
+input	{	
+	margin-top: 5px;
+	width: 150px;
+}
+
+.error	{	
+	color: red;	
+}
+
+
+#formBody	{	
+	font-family: Arial, sans-serif;
+}
+
+#resultsBody	{	
+	font-family: Arial, sans-serif;
+	margin-bottom: 4em;
+}
+
+#resultsBodyWrapper	{
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {		
+	body	{		
+		font-size: 1.25em;				
+	}	
+	
+	#formBodyWrapper	{		
+		width: 200px;
+		margin: 0 auto;		
+	}	
+}
+
+@media (max-width: 768px){	
+	body	{		
+		font-size: 1.25em;				
+	}
+	
+	#formBodyWrapper	{		
+		width: 200px;
+		margin: 0 auto;		
+	}
+}
+
+
+
